@@ -1,7 +1,7 @@
 # Enhancing Diamond Open Access
 ## How OS-APS Facilitates Media-Neutral Scholarly Publishing
 
-> THIS REPOSITORY MAY SUFFER CHANGES UNTIL THE BEGINNING OF THE WORKSHOP
+> THIS REPOSITORY MAY SUFFER CHANGES UNTIL 22.11.2024
 
 **Moderation**: Dr. Joao Martins, Yannik Hampf (M.A),  Dr. Carsten Borchert, Sarah Bösendörfer(M.A)
 
