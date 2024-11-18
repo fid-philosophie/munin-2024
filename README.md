@@ -20,7 +20,8 @@ docker run \ --rm \ -p 127.0.0.1:3000:3000/tcp \ --platform linux/amd64 \ --name
 
 On Windows: open CMD or Powershell:
 ``` md osaps
-cd osapsdocker run --rm -p 127.0.0.1:3000:3000/tcp --platform linux/amd64 --name os-aps-demo --volume "$(pwd):/data" --env LOCAL_STORAGE_PATH=/data/manuscripts --env INSTANCE_TITLE="Per-sonal demo instance" registry.gitlab.com/sciflow/development/server:main
+cd osaps
+docker run --rm -p 127.0.0.1:3000:3000/tcp --platform linux/amd64 --name os-aps-demo --volume "$(pwd):/data" --env LOCAL_STORAGE_PATH=/data/manuscripts --env INSTANCE_TITLE="Personal demo instance" registry.gitlab.com/sciflow/development/server:main
 ```
 ## Running instance
 
@@ -33,5 +34,5 @@ On Docker Desktop, you can stop the running container under ‘Containers’.
 ## Including Templates
 
 ```
-docker run --rm -p 127.0.0.1:3000:3000/tcp --platform linux/amd64 --name os-aps-demo --volume "$(pwd):/data" --env LOCAL_STORAGE_PATH=/data/manuscripts --env INSTANCE_TITLE="Per-sonal demo instance" --env TEMPLATE_SOURCE=/data/templates registry.gitlab.com/sciflow/de-velopment/server:main
+docker run --rm -p 127.0.0.1:3000:3000/tcp --platform linux/amd64 --name os-aps-demo --volume "$(pwd):/data" --env LOCAL_STORAGE_PATH=/data/manuscripts --env INSTANCE_TITLE="Personal demo instance" --env TEMPLATE_SOURCE=/data/templates registry.gitlab.com/sciflow/development/server:main
 ```
