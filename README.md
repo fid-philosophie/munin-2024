@@ -15,13 +15,15 @@ Install Docker Desktop: https://www.docker.com/products/docker-desktop/ and visi
 
 On Linux:
 
-``` mkdir osaps
+```
+mkdir osaps
 cd osaps
 docker run \ --rm \ -p 127.0.0.1:3000:3000/tcp \ --platform linux/amd64 \ --name os-aps-demo \ --volume "$(pwd):/data" \ --env LOCAL_STORAGE_PATH=/data/manuscripts \ --env INSTANCE_TITLE="Personal demo instance" \ --env TEMPLATE_SOURCE=/data/templates \        registry.gitlab.com/sciflow/development/server:main
 ```
 
 On Windows: open CMD or Powershell:
-``` md osaps
+```
+md osaps
 cd osaps
 docker run --rm -p 127.0.0.1:3000:3000/tcp --platform linux/amd64 --name os-aps-demo --volume "%cd%":/data --env LOCAL_STORAGE_PATH=/data/manuscripts --env INSTANCE_TITLE="Personal demo instance" registry.gitlab.com/sciflow/development/server:main
 ```
