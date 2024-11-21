@@ -1,0 +1,727 @@
+{
+  "document": {
+    "type": "doc",
+    "attrs": {
+      "type": "article",
+      "lang": ""
+    },
+    "content": [
+      {
+        "type": "header",
+        "content": [
+          {
+            "type": "heading",
+            "attrs": {
+              "id": "title",
+              "level": 1,
+              "role": "title",
+              "type": "chapter",
+              "numbering": ""
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "Lorem Title"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "attrs": {
+          "id": "rFq8txw7mk1vm",
+          "level": 1,
+          "role": "",
+          "type": "chapter",
+          "numbering": ""
+        },
+        "content": [
+          {
+            "type": "text",
+            "text": "Lorem H1"
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "attrs": {
+          "id": "zq0xsw1jjh8xye",
+          "level": 2,
+          "role": "",
+          "type": "chapter",
+          "numbering": ""
+        },
+        "content": [
+          {
+            "type": "text",
+            "text": "Lorem H2"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "attrs": {
+          "id": "sOdsijozxf6fh",
+          "text-align": null
+        },
+        "content": [
+          {
+            "type": "text",
+            "text": "Lorem ipsum dolor "
+          },
+          {
+            "type": "citation",
+            "attrs": {
+              "source": "%5B%7B%22id%22:%22227%22%7D%5D",
+              "style": "apa",
+              "id": "aT6p8vw7wa1e9"
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "(Frege 1892)"
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "text": " sit amet, consectetur adipiscing elit. In sit amet efficitur augue, id iaculis massa. Nunc ornare tortor massa, a fringilla orci rutrum sed. Quisque et sapien ac risus fermentum lacinia."
+          },
+          {
+            "type": "footnote",
+            "attrs": {
+              "id": "iAeyfj8yj8f8o",
+              "type": "footnote"
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": " This is a footnote"
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "text": " Quisque consectetur, arcu eget pulvinar porta, arcu elit facilisis diam, at laoreet purus dui non metus. Cras vitae mi luctus libero accumsan imperdiet. Nunc semper ultricies ante, nec posuere erat rutrum vitae. Proin eu feugiat dolor, quis consectetur purus. Nunc at lectus sagittis magna venenatis luctus. Proin tincidunt risus id nunc semper dapibus. Integer augue ante, ultricies et hendrerit eget, pharetra non nunc. Integer suscipit semper sem blandit placerat. Duis scelerisque vulputate enim vitae consequat. Duis scelerisque rutrum vulputate. Donec metus est, fringilla id fermentum et, rutrum et libero."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "attrs": {
+          "id": "zzkmpjrckdhsb",
+          "text-align": null
+        },
+        "content": [
+          {
+            "type": "math",
+            "attrs": {
+              "id": "po1tk33bcp3ag",
+              "tex": "\\ y = \\ \\frac{x + 1}{\\sqrt{x - 1}}",
+              "style": "inline"
+            }
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "attrs": {
+          "id": "eX9i25mef53ta",
+          "text-align": null
+        },
+        "content": [
+          {
+            "type": "text",
+            "text": "Donec a pellentesque velit. Nulla neque odio, rutrum nec nibh id, finibus iaculis dui. Mauris lectus ex, venenatis in sollicitudin quis, blandit a nulla. Suspendisse tincidunt felis dui, eget finibus lacus pharetra vel. Mauris tempus nunc odio, rutrum dapibus est imperdiet a. Suspendisse ut vulputate risus, in maximus nunc. Morbi sollicitudin ligula nec feugiat iaculis. In et elit ligula. "
+          },
+          {
+            "type": "citation",
+            "attrs": {
+              "source": "%5B%7B%22id%22:%221377%22%7D%5D",
+              "style": "apa",
+              "id": "xcqybz4mll2e"
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "(Hacker 2007)"
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "text": ". Sed ac hendrerit arcu. Vestibulum et aliquam arcu. Etiam consectetur, ante non dapibus fermentum, nulla lorem iaculis nibh, ac dictum lectus turpis ut ipsum. Aenean eu nisl sit amet justo sagittis vestibulum. Maecenas vitae lacinia felis, ut scelerisque est."
+          }
+        ]
+      },
+      {
+        "type": "figure",
+        "attrs": {
+          "id": "media/image1.png",
+          "src": "data:image/webp;base64,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",
+          "alt": "",
+          "type": "image",
+          "orientation": "portrait"
+        },
+        "content": [
+          {
+            "type": "caption"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "attrs": {
+          "id": "tNd882h9dijy",
+          "text-align": null
+        },
+        "content": [
+          {
+            "type": "text",
+            "text": "Donec ultricies sapien quis purus pharetra sollicitudin. Fusce pulvinar tempus nibh in condimentum. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aenean consequat, dui sit amet tempus consequat, elit leo fermentum metus, et finibus neque ligula sed turpis. Duis tincidunt eget ex ut finibus. Praesent libero est, tincidunt sed dapibus non, interdum at purus. Mauris vel elit quis nulla porta iaculis et a risus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. "
+          },
+          {
+            "type": "citation",
+            "attrs": {
+              "source": "%5B%7B%22id%22:%221465%22%7D%5D",
+              "style": "apa",
+              "id": "kjy8ethdrws2l"
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "(Bjornen, Iakovakis, und Macken 2021)"
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "text": ", nec congue nulla porta nec."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "attrs": {
+          "id": "eYr37u7w5q8up",
+          "text-align": null
+        },
+        "content": [
+          {
+            "type": "text",
+            "text": "Ut sollicitudin est enim, non commodo tellus faucibus interdum. Morbi velit orci, placerat id dictum eget, dapibus id nisi. Duis vehicula arcu ac libero tincidunt sollicitudin et id magna. Phasellus porttitor venenatis libero, nec suscipit libero venenatis at. Etiam sapien leo, condimentum a metus sit amet, vehicula hendrerit eros. Nam pellentesque bibendum arcu, quis varius nibh cursus vel. Fusce dapibus eu tellus at laoreet. Sed lobortis orci eleifend lectus scelerisque condimentum. Mauris at tellus nec arcu facilisis gravida. Maecenas eu lectus vitae tortor dictum pharetra sed vitae libero."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "attrs": {
+          "id": "tVbpmm7i0wapo",
+          "text-align": null
+        },
+        "content": [
+          {
+            "type": "text",
+            "text": "Fusce auctor pharetra dictum. Ut tempus lorem dui. Sed vulputate nibh augue, sit amet placerat nisi iaculis ac. Integer placerat lacinia ante, nec commodo arcu euismod sit amet. Nam maximus in ipsum id scelerisque."
+          },
+          {
+            "type": "footnote",
+            "attrs": {
+              "id": "ebszhssh1jzva",
+              "type": "footnote"
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": " This is another footnote"
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "text": " Vestibulum nec dui ut nunc feugiat ullamcorper sed ut neque. Aenean ipsum libero, luctus vel mattis id, accumsan sit amet felis. Aliquam blandit consectetur nisi. Aenean laoreet pharetra eros vitae dictum. Mauris eu risus enim."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "attrs": {
+          "id": "pgsrdx1jp5pmd",
+          "text-align": null
+        },
+        "content": [
+          {
+            "type": "text",
+            "text": "Nam "
+          },
+          {
+            "type": "citation",
+            "attrs": {
+              "source": "%5B%7B%22id%22:%22197%22%7D%5D",
+              "style": "apa",
+              "id": "hhsgzsw394ell"
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "(Kant 2003)"
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "text": " semper ullamcorper congue. Fusce in justo eget nisl pulvinar scelerisque. Ut non interdum arcu. Vivamus tristique, urna id cursus hendrerit, metus quam scelerisque lectus, eget ullamcorper magna dui quis lorem. Aenean non nulla nec tellus sagittis viverra at a est. Integer tincidunt laoreet purus eu facilisis. Proin ac mi libero. Nam varius augue eu facilisis molestie. Fusce eu tincidunt urna. Phasellus eu eros non diam congue tincidunt ut ac ante. Maecenas placerat ex purus, eu eleifend erat eleifend nec. Sed sed erat sit amet tellus commodo ultricies."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "attrs": {
+          "id": "rP2692knj6gd2",
+          "text-align": null
+        },
+        "content": [
+          {
+            "type": "text",
+            "text": "Mauris quis scelerisque orci, vitae finibus augue. Proin sollicitudin est mauris, non dictum orci viverra ac. Aliquam tristique laoreet nibh imperdiet venenatis. Fusce sit amet eros quis nisl viverra eleifend imperdiet ut felis. Etiam sed sem orci. Cras aliquet maximus justo, at elementum tellus pulvinar nec. Nullam id eros purus. Ut elementum ex non dui porttitor maximus. Donec ut leo facilisis, viverra sem id, pretium nulla. Morbi porta rutrum velit, vitae suscipit tellus luctus quis. Sed enim quam, efficitur id eros condimentum, vulputate sagittis massa. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Integer lacinia tincidunt felis eget egestas. Sed congue nisl non orci posuere elementum. Nullam tempor turpis eu bibendum tristique. Vivamus eros leo, hendrerit eget porttitor vel, fermentum placerat ipsum."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "attrs": {
+          "id": "dSoryezlesxtq",
+          "text-align": null
+        },
+        "content": [
+          {
+            "type": "text",
+            "text": "Fusce id commodo risus. Aliquam ut tellus convallis, accumsan tellus id, sodales odio. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Proin fermentum dui neque, vitae laoreet mauris consectetur quis. Aenean tempus gravida lectus at ornare. Ut ligula dui, gravida in felis a, sagittis hendrerit arcu. Fusce orci ipsum, faucibus eu venenatis a, sagittis vitae justo. Nulla volutpat consectetur ex, dapibus malesuada odio molestie vel. Suspendisse non mauris quis mi laoreet vehicula. Mauris condimentum elit quis nulla imperdiet auctor. Aenean a justo interdum, facilisis velit sed, porta nunc."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "attrs": {
+          "id": "cT20e42rkzr6z",
+          "text-align": null
+        },
+        "content": [
+          {
+            "type": "text",
+            "text": "Ut pellentesque, ex vel interdum bibendum, nisl magna fermentum nulla, quis ultrices arcu dolor ac nisl. Ut et aliquet orci, at semper lectus. Nam lacus nisi, mattis in ipsum in, posuere venenatis est. Mauris magna justo, egestas ac pretium quis, lacinia in lectus. Nullam nec lacus odio. Fusce euismod dignissim commodo. "
+          },
+          {
+            "type": "citation",
+            "attrs": {
+              "source": "%5B%7B%22id%22:%22947%22%7D%5D",
+              "style": "apa",
+              "id": "uaqybw5ij0thr"
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "(Marušić 2015)"
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "text": ", quis faucibus risus venenatis. Phasellus est dui, gravida in turpis eget, blandit convallis metus. Nunc tincidunt libero id sapien volutpat sollicitudin. In viverra egestas est, non congue dui volutpat vel. Praesent a lobortis dui. Quisque ut rhoncus eros, in bibendum nibh. Vestibulum varius nunc non felis ultricies, nec volutpat erat lacinia. Nulla tempus, diam et semper tristique, neque orci rutrum mi, sed sodales urna nisl placerat dui. Morbi consectetur ultrices pharetra. Suspendisse viverra tincidunt condimentum."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "attrs": {
+          "id": "pgty97hz2gsen",
+          "text-align": null
+        },
+        "content": [
+          {
+            "type": "text",
+            "text": "Praesent tellus purus, mollis non imperdiet at, ultricies sed sapien. Cras placerat quam sed faucibus consectetur. Praesent sit amet turpis ut leo mattis bibendum. Aliquam sed sodales nibh. Nulla faucibus tristique congue. Interdum et malesuada fames ac ante ipsum primis in faucibus. Fusce bibendum nunc lacus. Integer vulputate aliquam risus ac vestibulum. Maecenas accumsan libero elementum pulvinar elementum. Donec aliquam molestie molestie. Pellentesque vitae sapien tortor. Phasellus pharetra velit sed pellentesque convallis. Phasellus laoreet lobortis mi sed posuere. Mauris rutrum egestas auctor."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "attrs": {
+          "id": "aBsi5y4liwyy",
+          "text-align": null
+        },
+        "content": [
+          {
+            "type": "text",
+            "text": "Proin "
+          },
+          {
+            "type": "citation",
+            "attrs": {
+              "source": "%5B%7B%22id%22:%22227%22%7D%5D",
+              "style": "apa",
+              "id": "bM2v8yy6c8pwb"
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "(Frege 1892)"
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "text": " vitae congue magna, ac sodales orci. Donec nec nunc volutpat, porttitor urna eget, dictum leo. Cras porttitor urna tellus, at posuere turpis ullamcorper et. Etiam aliquam ipsum id faucibus blandit. Aliquam vehicula non tortor a vestibulum. Mauris quis maximus nisl. Morbi sodales nunc vel libero mollis, vitae cursus velit consectetur. Duis vel venenatis nibh, vel tristique eros."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "attrs": {
+          "id": "jw63jzuq5xv4",
+          "text-align": null
+        },
+        "content": [
+          {
+            "type": "text",
+            "text": "Nunc vitae sodales felis, in sollicitudin diam. Phasellus sapien leo, condimentum a enim at, molestie feugiat ligula. Nunc iaculis iaculis laoreet. Quisque dignissim ligula a vehicula semper. Etiam eget aliquam massa. Sed sit amet consequat risus, in finibus magna. Phasellus vehicula augue nunc, eu venenatis augue vehicula vel. Etiam condimentum nulla tortor, eget condimentum lacus vulputate ut. Nulla facilisi. Cras tristique accumsan lectus nec tristique. Praesent elementum euismod nisi, sed sodales velit commodo at."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "attrs": {
+          "id": "hT9r4qj48ogcg",
+          "text-align": null
+        },
+        "content": [
+          {
+            "type": "text",
+            "text": "Donec sagittis ex vitae arcu feugiat, venenatis dictum risus commodo. Etiam molestie erat iaculis metus luctus, vitae malesuada augue luctus. Integer consectetur ornare magna, vitae ultricies ligula aliquet eu. Nam a ex nec mi lacinia mollis. Sed nisl est, finibus quis aliquam non, accumsan eget dui. In vehicula egestas lacus, ut consequat massa porta sit amet. Donec lacinia consequat quam, quis pretium velit viverra nec. Aenean eget libero sed lacus consectetur vehicula vel at mauris. In non elit nec tellus volutpat fermentum. Pellentesque nec sapien neque."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "attrs": {
+          "id": "lCub3xg3ehr8",
+          "text-align": null
+        },
+        "content": [
+          {
+            "type": "text",
+            "text": "Quisque vehicula euismod justo, sagittis interdum leo posuere quis. Sed sed eros quis massa tempor malesuada in non turpis. Aliquam a consectetur leo. Ut a lectus tortor. Duis ac nulla ipsum. Duis vel varius urna. Curabitur varius lorem tortor, a vestibulum risus tincidunt ut."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "attrs": {
+          "id": "zv8d6ia3h6zg9",
+          "text-align": null
+        },
+        "content": [
+          {
+            "type": "text",
+            "text": "In luctus interdum mollis. Donec aliquet ac neque sed sagittis. Quisque bibendum sem eu ante facilisis, id interdum neque fermentum. Etiam libero urna, feugiat quis accumsan at, feugiat ut magna. Suspendisse potenti. "
+          },
+          {
+            "type": "citation",
+            "attrs": {
+              "source": "%5B%7B%22id%22:%22269%22%7D%5D",
+              "style": "apa",
+              "id": "jlw7rhv5zexp"
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "(Foucault 1980)"
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "text": ". Donec rutrum pulvinar pretium. Pellentesque justo massa, rhoncus ac dui id, hendrerit efficitur ante. Duis ut nibh mattis odio sollicitudin egestas. Sed suscipit, "
+          },
+          {
+            "type": "citation",
+            "attrs": {
+              "source": "%5B%7B%22id%22:%22880%22%7D%5D",
+              "style": "apa",
+              "id": "fe8lwgwtauhcx"
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "(Blander 2014)"
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "text": ", arcu justo ultrices mi, quis varius neque metus in urna. Nullam at dapibus risus. Proin vulputate est sed commodo faucibus. Aenean in consequat erat. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "attrs": {
+          "id": "pPpjjsey4nyq",
+          "text-align": null
+        },
+        "content": [
+          {
+            "type": "text",
+            "text": "Cras condimentum fringilla sagittis. Duis sagittis quam a magna mollis pulvinar. Phasellus eu ornare tortor. Phasellus convallis diam mi, nec cursus ligula bibendum mollis. Vivamus ac dui erat. Nunc laoreet leo in nunc congue finibus. Duis a magna dignissim elit hendrerit sodales tempus sed enim. Aliquam lobortis eget purus quis viverra. Praesent sollicitudin libero non ante molestie tempus. Vestibulum facilisis ultrices maximus. Cras sodales mollis nisl, ut rhoncus nunc. Aenean volutpat accumsan accumsan. Pellentesque ac egestas dui. Quisque sed mauris ipsum. Phasellus feugiat, felis a tristique gravida, augue purus facilisis eros, pellentesque molestie ipsum sem a nisi."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "attrs": {
+          "id": "zgmgmhc8waixd",
+          "text-align": null
+        },
+        "content": [
+          {
+            "type": "text",
+            "text": "Curabitur non arcu ante. Phasellus tincidunt, risus ultricies cursus tempus, magna arcu pretium eros, eget facilisis diam dui quis odio. Mauris hendrerit sapien erat, sed molestie erat gravida eu. Donec auctor, purus eu dapibus laoreet, tortor lorem mollis magna, et aliquam odio elit interdum enim. Quisque varius viverra metus, eu bibendum sapien lacinia finibus. Duis sapien nisi, sollicitudin sit amet felis vel, maximus iaculis justo. Nam ac purus maximus, tristique nunc non, consequat nibh. Praesent malesuada sem at ipsum porta efficitur at eget neque. Aliquam gravida leo vel nisl "
+          },
+          {
+            "type": "citation",
+            "attrs": {
+              "source": "%5B%7B%22id%22:%221315%22%7D%5D",
+              "style": "apa",
+              "id": "iIfc1kjvnypl"
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "(Searle 2010)"
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "text": ". Sed eros lacus, posuere eget varius et, imperdiet sed mi. Nam facilisis faucibus sem. Donec vitae fringilla metus. Cras sed neque at felis viverra gravida in nec est. Proin venenatis dictum imperdiet. Curabitur bibendum nulla a diam facilisis, at sodales magna facilisis."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "attrs": {
+          "id": "jubaj580aphah",
+          "level": 1,
+          "role": "",
+          "type": "bibliography",
+          "numbering": ""
+        },
+        "content": [
+          {
+            "type": "text",
+            "text": "Literatur"
+          }
+        ]
+      }
+    ]
+  },
+  "authors": [
+    {
+      "id": "",
+      "type": "author",
+      "rank": null,
+      "editable": true,
+      "userId": "",
+      "authorId": "jl77yczlr4",
+      "invitedAt": "2024-11-21T12:18:11.120Z",
+      "currentUser": false,
+      "allowedRoles": [
+        "Author"
+      ],
+      "roles": null,
+      "title": "",
+      "name": "",
+      "firstName": "John",
+      "lastName": "Smith",
+      "kemail": "",
+      "twitter": "",
+      "orcid": "",
+      "equalContribution": true,
+      "correspondingAuthor": false,
+      "deceased": false,
+      "positions": [],
+      "groups": [],
+      "funders": [],
+      "hideInPublication": false
+    }
+  ],
+  "references": [
+    {
+      "author": [
+        {
+          "family": "Frege",
+          "given": "Gottlob"
+        }
+      ],
+      "container-title": "Zeitschrift für Philosophie und philosophische Kritik",
+      "id": "227",
+      "issued": "1892",
+      "language": "de",
+      "page": "25–50",
+      "title": "Über Sinn und Bedeutung",
+      "type": "article-journal",
+      "volume": "100"
+    },
+    {
+      "ISBN": "978-1-4051-4728-6",
+      "OCLC": "ocm77759216",
+      "author": [
+        {
+          "family": "Hacker",
+          "given": "P. M. S."
+        }
+      ],
+      "call-number": "BD450 .H2355 2007",
+      "event-place": "Malden, MA ; Oxford",
+      "id": "1377",
+      "issued": "2007",
+      "number-of-pages": "326",
+      "publisher": "Blackwell Pub",
+      "publisher-place": "Malden, MA ; Oxford",
+      "source": "Library of Congress ISBN",
+      "title": "Human Nature. The Categorial Framework",
+      "title-short": "Human nature",
+      "type": "book"
+    },
+    {
+      "DOI": "10.17605/OSF.IO/VPGBT",
+      "URL": "https://osf.io/vpgbt/",
+      "abstract": "Course site for FSCI 2021's W25: Working with Scholarly Literature in R: Pulling, Wrangling, Cleaning, and Analyzing Structured Bibliographic Metadata",
+      "accessed": "2024-06-17",
+      "author": [
+        {
+          "family": "Bjornen",
+          "given": "Kay Kuhlemeier"
+        },
+        {
+          "family": "Iakovakis",
+          "given": "Clarke"
+        },
+        {
+          "family": "Macken",
+          "given": "Megan"
+        }
+      ],
+      "contributor": [
+        {
+          "literal": "Center For Open Science"
+        }
+      ],
+      "id": "1465",
+      "issued": "2021",
+      "license": "Creative Commons Attribution 4.0 International",
+      "publisher": "OSF",
+      "source": "DOI.org (Datacite)",
+      "title": "W25: Working with Scholarly Literature in R: Pulling, Wrangling, Cleaning, and Analyzing Structured Bibliographic Metadata",
+      "title-short": "W25",
+      "type": "article-journal"
+    },
+    {
+      "author": [
+        {
+          "family": "Kant",
+          "given": "I."
+        }
+      ],
+      "event-place": "Hamburg",
+      "id": "197",
+      "issued": "2003",
+      "publisher-place": "Hamburg",
+      "title": "Kritik der praktischen Vernunft [1. Aufl. 1781]",
+      "type": "book"
+    },
+    {
+      "author": [
+        {
+          "family": "Marušić",
+          "given": "Berislav"
+        }
+      ],
+      "event-place": "Oxford",
+      "id": "947",
+      "issued": "2015",
+      "publisher": "Oxford University Press",
+      "publisher-place": "Oxford",
+      "title": "Evidence and Agency Norms of Belief for Promising and Resolving",
+      "type": "book"
+    },
+    {
+      "author": [
+        {
+          "family": "Foucault",
+          "given": "Michel"
+        }
+      ],
+      "edition": "3",
+      "event-place": "Frankfurt",
+      "id": "269",
+      "issued": "1980",
+      "publisher-place": "Frankfurt",
+      "title": "Die Ordnung der Dinge, Eine Archäologie der Humanwissenschaften",
+      "translator": [
+        {
+          "family": "Köppe",
+          "given": "Ulrich"
+        }
+      ],
+      "type": "book"
+    },
+    {
+      "author": [
+        {
+          "family": "Blander",
+          "given": "Joshua"
+        }
+      ],
+      "event-place": "Los Angeles",
+      "id": "880",
+      "issued": "2014",
+      "publisher": "UCLA",
+      "publisher-place": "Los Angeles",
+      "title": "Dependence, Separability, and Theories of Identity and Distinction in Late Medieval Philosophy: Case Studies from Scotus and Ockham, Dissertation",
+      "type": "book"
+    },
+    {
+      "OCLC": "913333201",
+      "author": [
+        {
+          "family": "Searle",
+          "given": "John R."
+        }
+      ],
+      "event-place": "New York",
+      "id": "1315",
+      "issued": "2010",
+      "language": "eng",
+      "publisher": "Oxford University Press",
+      "publisher-place": "New York",
+      "source": "Open WorldCat",
+      "title": "Making the Social World. The Structure of Human Civilization",
+      "title-short": "Making the social world",
+      "type": "book"
+    }
+  ],
+  "files": [
+    {
+      "__typename": "File",
+      "id": "media/image1.png",
+      "name": "test-article-image1.png",
+      "type": "image",
+      "url": "/export/asset/clean-thread-0ace5963-d04b-4f1a-9eac-a9def5bc9751/test-article-image1.png"
+    }
+  ],
+  "metaData": null,
+  "lastModified": 1732191543162,
+  "template": "phylosophy-and-digitality"
+}

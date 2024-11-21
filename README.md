@@ -9,6 +9,8 @@
 
 ## Requirements
 
+Install this repository: `git clone https://github.com/fid-philosophie/munin-2024.git`
+
 Install Docker Desktop: https://www.docker.com/products/docker-desktop/ and visit: https://os-aps.de
 
 ## Install
