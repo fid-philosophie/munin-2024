@@ -16,16 +16,14 @@ Install Docker Desktop: https://www.docker.com/products/docker-desktop/ and visi
 On Linux:
 
 ```
-mkdir osaps
 cd osaps
-docker run \ --rm \ -p 127.0.0.1:3000:3000/tcp \ --platform linux/amd64 \ --name os-aps-demo \ --volume "$(pwd):/data" \ --env LOCAL_STORAGE_PATH=/data/manuscripts \ --env INSTANCE_TITLE="Personal demo instance" \ --env TEMPLATE_SOURCE=/data/templates \        registry.gitlab.com/sciflow/development/server:main
+docker run --rm -d -p 127.0.0.1:3000:3000/tcp --platform linux/amd64 --name phidi-osaps --volume "$(pwd):/data" --env LOCAL_STORAGE_PATH=/data/manuscripts --env INSTANCE_TITLE="Munin Conference 2024" jmagalha/phidi-osaps-2024:latest
 ```
 
 On Windows: open CMD or Powershell:
 ```
-md osaps
 cd osaps
-docker run --rm -p 127.0.0.1:3000:3000/tcp --platform linux/amd64 --name os-aps-demo --volume "%cd%":/data --env LOCAL_STORAGE_PATH=/data/manuscripts --env INSTANCE_TITLE="Personal demo instance" registry.gitlab.com/sciflow/development/server:main
+docker run --rm -d -p 127.0.0.1:3000:3000 --platform linux/amd64 --name phidi-osaps --volume "${PWD}:/data" --env LOCAL_STORAGE_PATH=/data/manuscripts --env INSTANCE_TITLE="Munin Conference 2024" jmagalha/phidi-osaps-2024:latest
 ```
 ## Running instance
 
@@ -38,5 +36,5 @@ On Docker Desktop, you can stop the running container under ‘Containers’.
 ## Including Templates
 
 ```
-docker run --rm -p 127.0.0.1:3000:3000/tcp --platform linux/amd64 --name os-aps-demo --volume "$(pwd):/data" --env LOCAL_STORAGE_PATH=/data/manuscripts --env INSTANCE_TITLE="Personal demo instance" --env TEMPLATE_SOURCE=/data/templates registry.gitlab.com/sciflow/development/server:main
+docker run --rm -p 127.0.0.1:3000:3000/tcp --platform linux/amd64 --name phidi-osaps --volume "$(pwd):/data" --env LOCAL_STORAGE_PATH=/data/manuscripts --env INSTANCE_TITLE="Munin Conference 2024" --env TEMPLATE_SOURCE=/data/templates jmagalha/phidi-osaps-2024:latest
 ```
