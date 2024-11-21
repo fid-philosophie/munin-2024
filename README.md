@@ -9,34 +9,43 @@
 
 ## Requirements
 
-Install this repository: `git clone https://github.com/fid-philosophie/munin-2024.git`
-
-Install Docker Desktop: https://www.docker.com/products/docker-desktop/ and visit: https://os-aps.de
+* Install Git: https://git-scm.com/downloads
+* Install Docker Desktop: https://www.docker.com/products/docker-desktop/
+* Visit: https://os-aps.de/en/
 
 ## Install
+
+Clone this repository: `git clone https://github.com/fid-philosophie/munin-2024.git`
+
+```
+cd munin-2024
+cd osaps
+```
 
 On Linux:
 
 ```
-cd osaps
 docker run --rm -d -p 127.0.0.1:3000:3000/tcp --platform linux/amd64 --name phidi-osaps --volume "$(pwd):/data" --env LOCAL_STORAGE_PATH=/data/manuscripts --env INSTANCE_TITLE="Munin Conference 2024" jmagalha/phidi-osaps-2024:latest
 ```
 
 On Windows: open CMD or Powershell:
 ```
-cd osaps
 docker run --rm -d -p 127.0.0.1:3000:3000 --platform linux/amd64 --name phidi-osaps --volume "${PWD}:/data" --env LOCAL_STORAGE_PATH=/data/manuscripts --env INSTANCE_TITLE="Munin Conference 2024" jmagalha/phidi-osaps-2024:latest
 ```
-## Running instance
+## Running instance in the browser
 
-https://localhost:3000
+http://localhost:3000
 
-## Stop instance
+## Accessing an existing document
 
-On Docker Desktop, you can stop the running container under ‘Containers’.
+http://localhost:3000/write/clean-thread-0ace5963-d04b-4f1a-9eac-a9def5bc9751
 
 ## Including Templates
 
 ```
-docker run --rm -p 127.0.0.1:3000:3000/tcp --platform linux/amd64 --name phidi-osaps --volume "$(pwd):/data" --env LOCAL_STORAGE_PATH=/data/manuscripts --env INSTANCE_TITLE="Munin Conference 2024" --env TEMPLATE_SOURCE=/data/templates jmagalha/phidi-osaps-2024:latest
+docker run --rm -p 127.0.0.1:3000:3000/tcp --platform linux/amd64 --name phidi-osaps --volume "$(pwd):/data" --env LOCAL_STORAGE_PATH=/data/manuscripts --env INSTANCE_TITLE="Munin Conference 2024" --env TEMPLATE_SOURCE=/data/templates --env TEMPLATE_SOURCE=/data/fonts jmagalha/phidi-osaps-2024:latest
 ```
+
+## Stop instance
+
+On Docker Desktop, you can stop the running container under ‘Containers’, or you can also stop the instance on command line via `docker stop phidi-osaps`
