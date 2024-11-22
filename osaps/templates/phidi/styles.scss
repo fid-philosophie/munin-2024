@@ -37,13 +37,6 @@ p:not(:empty):not(li p):not(td p):not(th p):not(figcaption p):not([data-role=not
   margin-left: unset;
   margin-right: unset;
 }
-// .pagedjs_pagebox > .pagedjs_area > .pagedjs_footnote_area {
-//   display: block;
-
-//   .pagedjs_footnote_content {
-//     overflow: unset;
-//   }
-// }
 
 .csl-entry {
   text-indent: -2.5rem;
@@ -58,18 +51,25 @@ p:not(:empty):not(li p):not(td p):not(th p):not(figcaption p):not([data-role=not
 }
 
 figure[data-type=equation] {
-  /* text-align: center; */
   display: flex;
   justify-content: center;
 }
 
-section.Title > section > {
-  span > sup {
-    display: none;
-  }
-  div > address > sup {
-    display: none;
-  }
+
+/* zebra striping */
+
+tbody td {
+  border: 1px solid  #000;
+  padding: 5px;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #ededed;
+
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f8f8f8;
 }
 
 @page {
@@ -96,12 +96,7 @@ section.Title > section > {
 
 @page:first {
   @top-center {
-    //content: url("/export/asset/small-voice-7c073292-67d7-4913-8c98-980ab8e5e698/PD_Logo.svg");
-    // position: absolute;
-    // left: 35px;
-    // top: -105px;
-
-    background-image: url("/export/clean-thread-0ace5963-d04b-4f1a-9eac-a9def5bc9751/logo.png");
+    background-image: url("/export/asset/clean-thread-0ace5963-d04b-4f1a-9eac-a9def5bc9751/logo.png");
     background-size: 100%;
     content: "";
   }

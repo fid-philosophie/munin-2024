@@ -119,8 +119,14 @@
             "attrs": {
               "id": "po1tk33bcp3ag",
               "tex": "\\ y = \\ \\frac{x + 1}{\\sqrt{x - 1}}",
-              "style": "inline"
-            }
+              "style": "block"
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "\\ y = \\ \\frac{x + 1}{\\sqrt{x - 1}}"
+              }
+            ]
           }
         ]
       },
@@ -722,6 +728,6 @@
     }
   ],
   "metaData": null,
-  "lastModified": 1732191543162,
-  "template": "phylosophy-and-digitality"
+  "lastModified": 1732312529966,
+  "template": "phidi"
 }
