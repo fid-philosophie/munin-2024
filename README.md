@@ -1,8 +1,6 @@
 # Enhancing Diamond Open Access
 ## How OS-APS Facilitates Media-Neutral Scholarly Publishing
 
-> THIS REPOSITORY MAY SUFFER CHANGES UNTIL 22.11.2024
-
 **Moderation**: Dr. Joao Martins, Yannik Hampf (M.A),  Dr. Carsten Borchert, Sarah Bösendörfer(M.A)
 
 **Duration** : 90 minutesThe workshop works for both passive-receptive participants and those who want to actively learn about the use of OS-APS on site and try it out in practice.For the active group of participants, it is necessary to install Docker on their computer beforehand. You will find instructions for this below:
@@ -44,12 +42,12 @@ http://localhost:3000/write/clean-thread-0ace5963-d04b-4f1a-9eac-a9def5bc9751
 
 Linux:
 ```
-docker run --rm -p 127.0.0.1:3000:3000/tcp --platform linux/amd64 --name phidi-osaps --volume "$(pwd):/data" --env LOCAL_STORAGE_PATH=/data/manuscripts --env INSTANCE_TITLE="Munin Conference 2024" --env TEMPLATE_SOURCE=/data/templates --env TEMPLATE_SOURCE=/data/fonts jmagalha/phidi-osaps-2024:latest
+docker run --rm -d -p 127.0.0.1:3000:3000/tcp --platform linux/amd64 --name phidi-osaps --volume "$(pwd):/data" --env LOCAL_STORAGE_PATH=/data/manuscripts --env INSTANCE_TITLE="Munin Conference 2024" --env TEMPLATE_SOURCE=/data/templates jmagalha/phidi-osaps-2024:latest
 ```
 
 Windows:
 ```
-docker run --rm -p 127.0.0.1:3000:3000/tcp --platform linux/amd64 --name phidi-osaps --volume "${PWD}:/data" --env LOCAL_STORAGE_PATH=/data/manuscripts --env INSTANCE_TITLE="Munin Conference 2024" --env TEMPLATE_SOURCE=/data/templates --env TEMPLATE_SOURCE=/data/fonts jmagalha/phidi-osaps-2024:latest
+docker run --rm -d -p 127.0.0.1:3000:3000/tcp --platform linux/amd64 --name phidi-osaps --volume "${PWD}:/data" --env LOCAL_STORAGE_PATH=/data/manuscripts --env INSTANCE_TITLE="Munin Conference 2024" --env TEMPLATE_SOURCE=/data/templates --env jmagalha/phidi-osaps-2024:latest
 ```
 
 ## Stop instance
