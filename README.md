@@ -42,8 +42,14 @@ http://localhost:3000/write/clean-thread-0ace5963-d04b-4f1a-9eac-a9def5bc9751
 
 ## Including Templates
 
+Linux:
 ```
 docker run --rm -p 127.0.0.1:3000:3000/tcp --platform linux/amd64 --name phidi-osaps --volume "$(pwd):/data" --env LOCAL_STORAGE_PATH=/data/manuscripts --env INSTANCE_TITLE="Munin Conference 2024" --env TEMPLATE_SOURCE=/data/templates --env TEMPLATE_SOURCE=/data/fonts jmagalha/phidi-osaps-2024:latest
+```
+
+Windows:
+```
+docker run --rm -p 127.0.0.1:3000:3000/tcp --platform linux/amd64 --name phidi-osaps --volume "${PWD}:/data" --env LOCAL_STORAGE_PATH=/data/manuscripts --env INSTANCE_TITLE="Munin Conference 2024" --env TEMPLATE_SOURCE=/data/templates --env TEMPLATE_SOURCE=/data/fonts jmagalha/phidi-osaps-2024:latest
 ```
 
 ## Stop instance
