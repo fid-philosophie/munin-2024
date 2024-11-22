@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
+
+body {
+  counter-reset: paragraph;
+}
+
+section.Title > h1 {
+  font-size: 2.5rem;
+  line-height: 1.1;
+}
+
+h1 {
+  font-size: 1.5rem;
+}
+
+section.authors > .author {
+  font-size: 1.5rem;
+}
+
+
+p:not(:empty):not(li p):not(td p):not(th p):not(figcaption p):not([data-role=notes] p):not([data-type=bibliography] p):not([data-type=poetry] p){
+  position: relative;
+  counter-increment: paragraph;
+
+  &:before {
+    position: absolute;
+    font-size: 9px;
+    line-height: 5px;
+    color: gray;
+    content: counter(paragraph) " ";
+    left: -2.5rem;
+    top: 0.6rem;
+  }
+}
+
+.pagedjs_page .pagedjs_footnote_content {
+  margin-left: unset;
+  margin-right: unset;
+}
+// .pagedjs_pagebox > .pagedjs_area > .pagedjs_footnote_area {
+//   display: block;
+
+//   .pagedjs_footnote_content {
+//     overflow: unset;
+//   }
+// }
+
+.csl-entry {
+  text-indent: -2.5rem;
+  margin-bottom: 1rem;
+  margin-left: 2.5rem;
+  text-align: left;
+  text-align-last: left;
+}
+
+.author {
+  text-align-last: left;
+}
+
+figure[data-type=equation] {
+  /* text-align: center; */
+  display: flex;
+  justify-content: center;
+}
+
+section.Title > section > {
+  span > sup {
+    display: none;
+  }
+  div > address > sup {
+    display: none;
+  }
+}
+
+@page {
+  @bottom-center {
+    content: "P&D · vol. 1, no. 1 · 2024";
+    font-style: italic;
+  }
+}
+
+@page:left {
+  @top-center {
+    content: var(--headerLeft);
+    font-style: italic;
+    font-size: 12px;
+  }
+}
+@page:right {
+  @top-center {
+    content: var(--headerRight);
+    font-style: italic;
+    font-size: 12px;
+  }
+}
+
+@page:first {
+  @top-center {
+    //content: url("/export/asset/small-voice-7c073292-67d7-4913-8c98-980ab8e5e698/PD_Logo.svg");
+    // position: absolute;
+    // left: 35px;
+    // top: -105px;
+
+    background-image: url("/export/clean-thread-0ace5963-d04b-4f1a-9eac-a9def5bc9751/logo.png");
+    background-size: 100%;
+    content: "";
+  }
+  @bottom-center {
+    content: "";
+  }
+  @bottom-left {
+    content: "Contact: " var(--contact) " " var(--orcid) "\a" var(--doi);
+    width: 100px;
+    white-space: pre;
+    font-size: 0.5rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1rem;
+    position: absolute;
+    bottom: 30px;
+  }
+  @bottom-right {
+    position: absolute;
+    right: 95px;
+    counter-set: page var(--firstpage);
+  }
+}

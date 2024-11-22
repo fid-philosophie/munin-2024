@@ -1,0 +1,73 @@
+kind: Configuration
+spec:
+  title: Template Philosophy and Digitality
+  description: PhiDi Template for display in the OJS instance of the Univesity Library of Cologne
+  type: journal
+  readme: |
+    # About
+
+    This template will provide a basic one column PDF export.
+---
+kind: JournalTitle
+page: body
+spec: {}
+---
+kind: Page
+page: body
+spec:
+  page:
+    font:
+      family: Crimson Text
+      size: 12pt
+    size: A4
+    margins:
+      inner: 25mm
+      outer: 18mm
+    handling: single-sided
+  typesetting:
+    widows: 2
+    orphans: 3
+---
+kind: Numbering
+spec:
+  placement:
+    region: bottom
+  align: 
+    vertical: top
+  font:
+    size: 10pt
+---
+kind: Footnote
+spec: 
+  fontSize: 8pt
+  separatorStyle: borderLeft
+---
+kind: Figure
+spec:
+  test: Test value
+  image:
+    captionSide: below
+---
+kind: Tables
+spec:
+  captionSide: above
+---
+kind: Figures
+spec:
+  captionSide: below
+---
+kind: RunningHead
+spec:
+  state: on
+  style: none
+  content:
+    left: authors
+    right: title
+---
+kind: Overrides
+spec: {}
+---
+kind: GoogleFont
+spec:
+  api:
+    url: https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap

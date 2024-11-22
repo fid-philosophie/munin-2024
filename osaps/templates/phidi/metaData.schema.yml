@@ -1,0 +1,17 @@
+type: object
+title: PhiDi Settings
+description: Template according to the formatting requirements for publishing a manuscript with FID Philosophie
+properties:
+    publication:
+        type: object
+        title: Publication data
+        description: Data needed for the publication
+        properties:
+            doi:
+                type: string
+                title: DOI
+            firstpage:
+                type: number
+                title: First Page
+
+

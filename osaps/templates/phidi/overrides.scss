@@ -1,0 +1,59 @@
+// FIXME DS
+@debug "Executing overrides";
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Crimson Text";
+  font-weight: 500;
+}
+
+@page {
+  @top-left {
+    font-family: "Crimson Text";
+    font-weight: 500;
+  }
+
+  @top-right {
+    font-family: "Crimson Text";
+    font-weight: 500;
+  }
+  @bottom-left {
+    font-family: "Crimson Text";
+    font-weight: 500;
+  }
+  @bottom-right {
+    font-family: "Crimson Text";
+    font-weight: 500;
+  }
+}
+
+// *[type="abstract"] {
+//   font-size: 1rem;
+// }
+
+section[data-type="abstract"] {
+  h1 { 
+    text-align: justify;
+    font-size: 1rem;
+  }
+}
+
+address > span {
+  display: block;
+}
+
+a {
+  color: black;
+}
+
+@page {
+    @footnote {
+    margin-top: 1.5rem;
+    border-top: .5px solid black;
+    margin-bottom: 0.5rem;
+   }
+}
