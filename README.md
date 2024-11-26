@@ -53,3 +53,13 @@ docker run --rm -d -p 127.0.0.1:3000:3000/tcp --platform linux/amd64 --name phid
 ## Stop instance
 
 On Docker Desktop, you can stop the running container under ‘Containers’, or you can also stop the instance on command line via `docker stop phidi-osaps`
+
+## Try the new version
+
+https://os-aps-next.sciflow.cloud/start
+
+You can also deploy the latest container of the new version using the instructions above and the follwoing address:
+
+```
+registry.gitlab.com/sciflow/development/server:development
+```
