@@ -5,7 +5,7 @@
 
 **Duration** : 90 minutes
 
-The workshop works for both passive-receptive participants and those who want to actively learn about the use of OS-APS on site and try it out in practice.For the active group of participants, it is necessary to install Docker on their computer beforehand. You will find instructions for this below:
+The workshop works for both passive-receptive participants and those who want to actively learn about the use of OS-APS on site and try it out in practice. For the active group of participants, it is necessary to install Docker on their computer beforehand. You will find instructions for this below:
 
 ## Requirements
 
