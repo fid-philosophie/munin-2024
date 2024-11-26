@@ -1,9 +1,11 @@
 # Enhancing Diamond Open Access
 ## How OS-APS Facilitates Media-Neutral Scholarly Publishing
 
-**Moderation**: Dr. Joao Martins, Yannik Hampf (M.A),  Dr. Carsten Borchert, Sarah Bösendörfer(M.A)
+**Moderation**: Dr. Joao Martins, Yannik Hampf (M.A),  Dr. Carsten Borchert, Sarah Bösendörfer (M.A)
 
-**Duration** : 90 minutesThe workshop works for both passive-receptive participants and those who want to actively learn about the use of OS-APS on site and try it out in practice.For the active group of participants, it is necessary to install Docker on their computer beforehand. You will find instructions for this below:
+**Duration** : 90 minutes
+
+The workshop works for both passive-receptive participants and those who want to actively learn about the use of OS-APS on site and try it out in practice.For the active group of participants, it is necessary to install Docker on their computer beforehand. You will find instructions for this below:
 
 ## Requirements
 
@@ -69,3 +71,13 @@ Windows:
 ```
 docker run --rm -d -p 127.0.0.1:3000:3000 --platform linux/amd64 --name phidi-osaps --volume "${PWD}:/data" --env LOCAL_STORAGE_PATH=/data/manuscripts --env INSTANCE_TITLE="Munin Conference 2024" registry.gitlab.com/sciflow/development/server:development
 ```
+
+## Extra resources
+
+The repository:
+
+https://gitlab.com/sciflow/development
+
+The templates:
+
+https://gitlab.com/os-aps/templates
