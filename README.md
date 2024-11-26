@@ -58,8 +58,14 @@ On Docker Desktop, you can stop the running container under ‘Containers’, or
 
 https://os-aps-next.sciflow.cloud/start
 
-You can also deploy the latest container of the new version using the instructions above and the follwoing address:
+You can also deploy the latest container of the new version using the instructions above:
 
+Linux:
 ```
-registry.gitlab.com/sciflow/development/server:development
+docker run --rm -d -p 127.0.0.1:3000:3000/tcp --platform linux/amd64 --name phidi-osaps --volume "$(pwd):/data" --env LOCAL_STORAGE_PATH=/data/manuscripts --env INSTANCE_TITLE="Munin Conference 2024" registry.gitlab.com/sciflow/development/server:development
+```
+
+Windows:
+```
+docker run --rm -d -p 127.0.0.1:3000:3000 --platform linux/amd64 --name phidi-osaps --volume "${PWD}:/data" --env LOCAL_STORAGE_PATH=/data/manuscripts --env INSTANCE_TITLE="Munin Conference 2024" registry.gitlab.com/sciflow/development/server:development
 ```
