@@ -36,9 +36,14 @@ docker run --rm -d -p 127.0.0.1:3000:3000 --platform linux/amd64 --name phidi-os
 
 http://localhost:3000
 
+
+https://phidi-osaps.ub.uni-koeln.de
+
 ## Accessing an existing document
 
 http://localhost:3000/write/clean-thread-0ace5963-d04b-4f1a-9eac-a9def5bc9751
+
+If you decide to deploy the system to a live server consider using a htaccess password.
 
 ## Including Templates
 
