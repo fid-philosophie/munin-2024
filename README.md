@@ -60,6 +60,8 @@ On Docker Desktop, you can stop the running container under ‘Containers’, or
 
 https://os-aps-next.sciflow.cloud/start
 
+https://os-aps-next.sciflow.cloud/edit/berserk-humanitarian-6526cedc-4ec1-4f4c-9379-4c42ce17175e/manuscript-2.json/fe105367-637a-490f-bbd3-e8ebd36f5dde/(context:export/generic-journal)
+
 You can also deploy the latest container of the new version using the instructions above:
 
 Linux:
